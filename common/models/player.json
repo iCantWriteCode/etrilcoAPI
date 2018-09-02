@@ -1,0 +1,21 @@
+{
+  "name": "player",
+  "plural": "players",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "games": {
+      "type": "array"
+    },
+    "playerType": {
+      "type": "String"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
