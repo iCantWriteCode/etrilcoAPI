@@ -13,6 +13,10 @@
     "roomCode": {
       "type": "String",
       "required": true
+    },
+    "gm": {
+      "type": "String",
+      "required": true
     }
   },
   "validations": [],
